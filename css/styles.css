@@ -1,19 +1,81 @@
-
 body {
-   font-family: "Open Sans", sans-serif;
-
+  font-family: "Open Sans", sans-serif;
 }
-  /*--Навігація--*/
-  .nav-list {}
 
-  .nav-item {}
-
-  .nav-link {
-  font-family: 'Open Sans';
-  font-style: normal;
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/*--header--*/
+.header {
+  background-color: gray;
+}
+.nav-link {
   font-weight: 600;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 1.33;
   letter-spacing: 0.1em;
+
+  color: #ffffff;
 }
-  color: #FFFFFF;
+.nav-link:hover,
+.nav-link:focus {
+  color: #ff6c00;
+}
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+.header-btn:hover,
+.header-btn:focus {
+   #ff6c00;
+  }
+/*--Header-----*/
+
+
+/*--hero-----*/
+.hero {
+   background-color: grey;
+}
+
+.hero-list {}
+
+.list {}
+
+.hero-list-item {}
+
+.hero-link {}
+
+.hero-text {
+   font-weight: 600;
+      font-size: 11px;
+      line-height: 15px;
+      /* identical to box height */
+
+      text-transform: uppercase;
+
+      color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {}
+
+.hero-descriotion {}
