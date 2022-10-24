@@ -1,0 +1,19 @@
+
+body {
+   font-family: "Open Sans", sans-serif;
+
+}
+  /*--Навігація--*/
+  .nav-list {}
+
+  .nav-item {}
+
+  .nav-link {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+}
+  color: #FFFFFF;
