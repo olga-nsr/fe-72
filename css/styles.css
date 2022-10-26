@@ -1,3 +1,11 @@
+:root{
+  --main-title-color: #ffffff;
+  --main-btn-color: #ffffff;
+  --secondary-title-color: #303030;
+  --secondary-btn-color: #303030;
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -17,8 +25,7 @@ body {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
-
-  color: #ffffff;
+  color: var(--main-title-color);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -31,7 +38,7 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color:  var(--main-title-color);
 }
 .header-btn {
   font-family: inherit;
@@ -40,7 +47,7 @@ body {
   line-height: calc(16 / 12);
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: #ffffff;
+  color:  var(--main-title-color);
   cursor: pointer;
   background-color: transparent;
   border: 1px solid #ffffff;
@@ -57,25 +64,95 @@ body {
    background-color: grey;
 }
 
-.hero-list {}
 
-.list {}
 
-.hero-list-item {}
+.hero-link {
+  ont-weight: 600;
+      font-size: 11px;
+      line-height: calc(15/11);
+      text-transform: uppercase;
+      color: var(--secondary-title-color)
+}
+.hero-link:hover,
+.hero-link:focus {
+  color:#ff6c00;
+}
 
-.hero-link {}
 
 .hero-text {
    font-weight: 600;
       font-size: 11px;
-      line-height: 15px;
-      /* identical to box height */
-
+      line-height: calc(15/11);
       text-transform: uppercase;
 
       color: rgba(157, 164, 189, 0.6);
 }
 
-.hero-title {}
+.hero-title {
+  font-weight: 700;
+font-size: 72px;
+line-height: calc(85/72);
+letter-spacing: 0.05em;
+color: var(--main-title-color);
 
-.hero-descriotion {}
+}
+
+.hero-descriotion {
+  font-size: 18px;
+line-height: calc(30/18);
+letter-spacing: 0.02em;
+
+color: #9DA4BD;
+
+}
+/*--About-----*/
+.about-title {
+  font-weight: 600;
+font-size: 11px;
+line-height: calc(15/11);
+text-transform: uppercase;
+color: var(--secondary-title-color);
+}
+
+.about-sub-title {
+  font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: calc(49/42);
+letter-spacing: 0.05em;
+color: var(--secondary-title-color);
+}
+
+.about-description {
+
+font-size: 18px;
+line-height: calc(30/ 18);
+letter-spacing: 0.02em;
+color: #555555;
+}
+.about-text {
+  font-size: 14px;
+line-height:  calc(26/ 14);
+letter-spacing: 0.02em;
+
+color: #555555;
+
+}
+.about-btn {
+  font-family: inherit;
+  font-weight: 600;
+font-size: 12px;
+line-height: calc(16/ 12);
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color:var(--secondary-btn-color);
+border: 1px solid #ffffff;
+border-radius: 25px;
+cursor: pointer;
+
+}
+.about-btn:hover,
+.about-btn:focus {
+  border: 1px solid #FF6C00;
+}
