@@ -3,6 +3,10 @@
   --main-btn-color: #ffffff;
   --secondary-title-color: #303030;
   --secondary-btn-color: #303030;
+  --accent-bg-color: #ff6c00;
+  --accent-txt-cl: #ff6c00;
+  --grey-cl-text: gray;
+  --grey-cl-bg: gray;
 }
 
 
@@ -40,7 +44,10 @@ body {
 
   color:  var(--main-title-color);
 }
-.header-btn {
+.btn {
+  min-width: 160px;
+  min-height: 40px;
+  padding: 11px 19px;
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
@@ -51,11 +58,21 @@ body {
   cursor: pointer;
   background-color: transparent;
   border: 1px solid #ffffff;
+  border: 1px solid #FF6C00;
+    border-radius: 25px;
+
 }
-.header-btn:hover,
-.header-btn:focus {
-   #ff6c00;
+.btn:hover,
+.btn:focus {
+   background-color: var(--accent-bg-color);
+   color: var(--main-btn-color);
   }
+
+  .btn-theme-dark {
+    color: var(--main-btn-color)
+  }
+
+
 /*--Header-----*/
 
 
