@@ -252,6 +252,18 @@ padding-bottom: 52px;
   | About
   |============================
 */
+.about-section {
+  display: flex;
+}
+.about-list {
+  display: flex;
+  
+}
+.about-item {
+  margin-right: 30px;
+}
+
+
 .about-right-side {
   width: 470px;
 }
