@@ -285,11 +285,33 @@ padding-bottom: 52px;
 .price {
   background-color: var(--dark-bg-cl);
 }
-
+.price-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 44px;
+ 
+}
+.price-list {
+  outline: 2px solid green;
+  flex-basis: 570px;
+ 
+  padding: 30px 20px;
+  
+}
 .price-item {
   color: var(--grey-cl);
 }
+.price-item:not(:last-child) {
+margin-bottom: 20px;
+}
 
+
+.line {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+}
 /**
   |============================
   | Benefits
