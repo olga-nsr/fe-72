@@ -299,7 +299,10 @@ padding-bottom: 52px;
   
 }
 .price-item {
+  display: flex;
+   align-items: baseline;
   color: var(--grey-cl);
+ 
 }
 .price-item:not(:last-child) {
 margin-bottom: 20px;
@@ -309,8 +312,15 @@ margin-bottom: 20px;
 .line {
   display: block;
   height: 1px;
-  width: 100%;
-  background-color: #fff;
+flex-grow: 1;
+  
+  background: rgba(157, 164, 189, 0.12);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.price-btn {
+  display: block;
+  margin: 0 auto;
 }
 /**
   |============================
