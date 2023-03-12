@@ -403,7 +403,7 @@ flex-grow: 1;
 }
 .team-wrapper {
 margin-top: 30px;
-margin-bottom: 30px;
+  
 }
 
 .team-name {
@@ -416,12 +416,39 @@ margin-bottom: 30px;
 }
 
 .team-position {
+  margin-bottom: 30px;
   font-size: 14px;
   line-height: calc(19 / 14);
   text-align: center;
   letter-spacing: 0.02em;
 
   color: var(--accent-txt-cl);
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+.socials-link  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  color: #303030;
+
+
+}
+.socials-link:hover,
+.socials-link:focus {
+  color:#ff6c00;
+  }
+.socials-icon {
+  fill: currentColor
 }
 
 /**
@@ -464,10 +491,15 @@ margin-bottom: 30px;
 }
 .contacts-address {
   font-style: normal;
+  margin-bottom: 70px;
+}
+.contacts-item {
+  
 }
 
 .contacts-link {
   color: var(--grey-cl);
+  
 }
 
 .contacts-uppertitle {
@@ -483,6 +515,8 @@ margin-bottom: 30px;
 .contacts-schedule {
   color: var(--grey-cl);
 }
+
+
 
 /**
   |============================
