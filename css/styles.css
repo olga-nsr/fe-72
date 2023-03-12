@@ -92,6 +92,7 @@ img {
 }
 
 .uppertitle {
+  display: flex;
   margin-bottom: 20px;
 
   font-weight: 600;
@@ -99,11 +100,26 @@ img {
   line-height: calc(15 / 11);
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  align-items: center;
+  
 }
+.uppertitle::before {
+  content: "";
+  width: 60px;
+  display: inline-block;
+  height: 1px;
+  margin-right: 20px;
+  background-color: #303030;
+  align-items: center;
 
+}
 .uppertitle-theme-dark {
   color: var(--grey-cl-60);
 }
+.uppertitle-theme-dark::before {
+  background-color: rgba(157, 164, 189, 0.6);
+}
+
 
 .title {
   margin-bottom: 20px;
@@ -302,6 +318,11 @@ padding-bottom: 52px;
 */
 .price {
   background-color: var(--dark-bg-cl);
+  background-image: url(../img/price.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 .price-block {
   display: flex;
@@ -416,15 +437,31 @@ margin-bottom: 30px;
   | Booking
   |============================
 */
-.contatcs-group {
-  background-color: var(--dark-bg-cl);
+.contacts-group {
+   background-color: var(--dark-bg-cl);
+  background-image: url(../img/Booking.png);
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 423px) top 50%;
 }
 
 /**
   |============================
-  | Contatcs
+  | Contacts
   |============================
 */
+.сontacts-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts,
+.booking {
+  width: 570px;
+
+}
+.contacts {
+  padding-left: 100px;
+}
 .contacts-address {
   font-style: normal;
 }
