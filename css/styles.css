@@ -20,6 +20,7 @@
   --btn-radius: 25px;
   --indent: 30px;
   --items: 3;
+  
 }
 
 /**
@@ -197,6 +198,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 
   width: 100%;
   background-color: var(--dark-bg-cl);
